@@ -25,7 +25,7 @@ export function Home() {
             What do you want to know?
           </h1>
         </div>
-        
+
         <form onSubmit={handleSearch} className="w-full">
           <div className="relative group">
             <input
@@ -33,9 +33,9 @@ export function Home() {
               value={query}
               onChange={(e) => setQuery(e.target.value)}
               placeholder="Ask anything..."
-              className="w-full px-6 py-4 text-lg rounded-full border border-gray-200 
-                       focus:border-google-blue focus:ring-4 focus:ring-google-blue/20 outline-none 
-                       transition-all duration-300 shadow-sm 
+              className="w-full px-6 py-4 text-lg rounded-full border border-gray-200
+                       focus:border-google-blue focus:ring-4 focus:ring-google-blue/20 outline-none
+                       transition-all duration-300 shadow-sm
                        group-hover:shadow-lg group-hover:border-gray-300
                        dark:bg-gray-800 dark:border-gray-700 dark:text-white
                        dark:focus:border-google-blue dark:group-hover:border-gray-600
@@ -43,11 +43,11 @@ export function Home() {
               style={{ fontFamily: 'Inter, sans-serif' }}
               autoFocus
             />
-            <button 
+            <button
               type="submit"
               disabled={!query.trim()}
               className="absolute right-4 top-1/2 -translate-y-1/2 p-2 rounded-full
-                         hover:bg-gray-100 dark:hover:bg-gray-700 transition-all duration-300 
+                         hover:bg-gray-100 dark:hover:bg-gray-700 transition-all duration-300
                          hover:scale-110 active:scale-95 disabled:opacity-50 disabled:hover:scale-100
                          disabled:hover:bg-transparent z-10 bg-background dark:bg-gray-800"
             >
@@ -56,11 +56,8 @@ export function Home() {
           </div>
         </form>
 
-        <div className="mt-8 text-center text-sm text-gray-500 dark:text-gray-400 animate-fade-in space-y-1">
-          <div>Powered by Gemini 2.0</div>
-          <div>
-            Created by <a href="http://x.com/ammaar" target="_blank" rel="noopener noreferrer" className="hover:text-gray-800 dark:hover:text-gray-300 transition-colors">@ammaar</a>
-          </div>
+        <div className="mt-8 text-center text-lg text-gray-500 dark:text-gray-400 animate-fade-in space-y-1">
+          Beta
         </div>
       </div>
     </div>

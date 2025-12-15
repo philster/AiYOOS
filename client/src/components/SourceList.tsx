@@ -22,7 +22,7 @@ export function SourceList({ sources }: SourceListProps) {
       </div>
 
       <ScrollArea className="w-full whitespace-nowrap rounded-md">
-        <motion.div 
+        <motion.div
           className="flex space-x-3 pb-4"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -36,7 +36,7 @@ export function SourceList({ sources }: SourceListProps) {
               transition={{ duration: 0.3, delay: index * 0.1 }}
               className="shrink-0"
             >
-              <Card 
+              <Card
                 className="w-[280px] group overflow-hidden transition-all hover:shadow-md cursor-pointer bg-card/50 hover:bg-card"
                 onClick={() => window.open(source.url, '_blank')}
               >
@@ -53,14 +53,14 @@ export function SourceList({ sources }: SourceListProps) {
                         </p>
                       )}
 
-                      <div className="flex items-center gap-2 text-xs text-muted-foreground/70">
+                      {/* <div className="flex items-center gap-2 text-xs text-muted-foreground/70">
                         <span className="truncate max-w-[200px]">
                           {new URL(source.url).hostname.replace('www.', '')}
                         </span>
-                      </div>
+                      </div> */}
                     </div>
 
-                    <ExternalLink className="h-4 w-4 flex-shrink-0 text-muted-foreground 
+                    <ExternalLink className="h-4 w-4 flex-shrink-0 text-muted-foreground
                       opacity-50 group-hover:opacity-100 transition-opacity" />
                   </div>
                 </div>
