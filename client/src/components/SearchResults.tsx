@@ -90,7 +90,7 @@ export function SearchResults({
       </motion.div>
 
       {/* Sources Section */}
-      {/* {results.sources && results.sources.length > 0 && (
+      {results.sources && results.sources.length > 0 && (
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -98,7 +98,7 @@ export function SearchResults({
         >
           <SourceList sources={results.sources} />
         </motion.div>
-      )} */}
+      )}
 
       {/* Main Content */}
       <Card className="overflow-hidden shadow-md">
