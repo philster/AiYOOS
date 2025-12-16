@@ -1,7 +1,7 @@
 {
-  "name": "Gemini Search",
-  "short_name": "Gemini",
-  "description": "A search engine powered by Google's Gemini Flash",
+  "name": "AiYOOS - Searching just became easier",
+  "short_name": "AiYOOS",
+  "description": "AiYOOS is a search engine that helps people find accurate answers faster.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#FCFCF9",
@@ -25,4 +25,4 @@
       "purpose": "any maskable"
     }
   ]
-} 
+}
