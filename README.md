@@ -1,6 +1,6 @@
 # Gemini Search
 
-A Perplexity-style search engine powered by Google's Gemini 2.0 Flash model with grounding through Google Search. Get AI-powered answers to your questions with real-time web sources and citations.
+A Perplexity-style search engine powered by Google's Gemini 2.5 Flash model with grounding through Google Search. Get AI-powered answers to your questions with real-time web sources and citations.
 
 Created by [@ammaar](https://x.com/ammaar)
 
@@ -10,7 +10,7 @@ Created by [@ammaar](https://x.com/ammaar)
 ## Features
 
 - 🔍 Real-time web search integration
-- 🤖 Powered by Google's latest Gemini 2.0 Flash model
+- 🤖 Powered by Google's latest Gemini 2.5 Flash model
 - 📚 Source citations and references for answers
 - 💬 Follow-up questions in the same chat session
 - 🎨 Clean, modern UI inspired by Perplexity
@@ -20,7 +20,7 @@ Created by [@ammaar](https://x.com/ammaar)
 
 - Frontend: React + Vite + TypeScript + Tailwind CSS
 - Backend: Express.js + TypeScript
-- AI: Google Gemini 2.0 Flash API
+- AI: Google Gemini 2.5 Flash API
 - Search: Google Search API integration
 
 ## Setup
