@@ -21,7 +21,7 @@ export function Home() {
       <div className="w-full max-w-3xl px-4 animate-fade-in">
         <div className="flex flex-col items-center mb-8">
           <Logo className="mb-6" />
-          <h1 className="text-2xl lg:text-4xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-gray-600 dark:from-white dark:to-gray-200">
+          <h1 className="text-2xl lg:text-4xl font-bold text-center bg-clip-text text-transparent bg-linear-to-r from-gray-900 to-gray-600 dark:from-white dark:to-gray-200">
             What do you want to know?
           </h1>
         </div>
@@ -34,8 +34,8 @@ export function Home() {
               onChange={(e) => setQuery(e.target.value)}
               placeholder="Ask anything..."
               className="w-full px-6 py-4 text-lg rounded-full border border-gray-200
-                       focus:border-google-blue focus:ring-4 focus:ring-google-blue/20 outline-none
-                       transition-all duration-300 shadow-sm
+                       focus:border-google-blue focus:ring-4 focus:ring-google-blue/20 outline-hidden
+                       transition-all duration-300 shadow-xs
                        group-hover:shadow-lg group-hover:border-gray-300
                        dark:bg-gray-800 dark:border-gray-700 dark:text-white
                        dark:focus:border-google-blue dark:group-hover:border-gray-600

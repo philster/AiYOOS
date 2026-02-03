@@ -60,7 +60,7 @@ export function SearchInput({
         onClick={handleSubmit}
         disabled={!query.trim() || isLoading}
         className={cn(
-          "min-w-[80px] shadow-sm",
+          "min-w-[80px] shadow-xs",
           large && "h-12 px-6 text-lg rounded-lg"
         )}
       >

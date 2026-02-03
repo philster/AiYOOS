@@ -60,7 +60,7 @@ export function SourceList({ sources }: SourceListProps) {
                       </div> */}
                     </div>
 
-                    <ExternalLink className="h-4 w-4 flex-shrink-0 text-muted-foreground
+                    <ExternalLink className="h-4 w-4 shrink-0 text-muted-foreground
                       opacity-50 group-hover:opacity-100 transition-opacity" />
                   </div>
                 </div>

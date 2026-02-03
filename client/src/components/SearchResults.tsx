@@ -119,7 +119,7 @@ export function SearchResults({
               "prose-ul:my-6 prose-ul:list-disc prose-ul:pl-6",
               "prose-li:my-2 prose-li:marker:text-muted-foreground",
               "prose-strong:font-semibold",
-              "prose-a:text-primary prose-a:no-underline hover:prose-a:text-primary/80",
+              "prose-a:text-primary prose-a:no-underline prose-a:hover:text-primary/80",
             )}
             dangerouslySetInnerHTML={{
               __html: results.summary
