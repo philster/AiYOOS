@@ -51,7 +51,7 @@
     "drizzle-orm": "^0.38.2",
     "drizzle-zod": "^0.6.0",
     "embla-carousel-react": "^8.3.0",
-    "express": "^4.21.2",
+    "express": "^4.22.1",
     "express-session": "^1.18.1",
     "framer-motion": "^11.13.1",
     "input-otp": "^1.2.4",
@@ -70,12 +70,12 @@
     "tailwind-merge": "^2.5.4",
     "tailwindcss-animate": "^1.0.7",
     "vaul": "^1.1.0",
-    "wouter": "^3.3.5",
-    "ws": "^8.18.0",
+    "wouter": "^3.9.0",
+    "ws": "^8.19.0",
     "zod": "^3.23.8"
   },
   "devDependencies": {
-    "@replit/vite-plugin-runtime-error-modal": "^0.0.3",
+    "@replit/vite-plugin-runtime-error-modal": "^0.0.4",
     "@tailwindcss/postcss": "^4.1.18",
     "@tailwindcss/typography": "^0.5.15",
     "@types/express": "4.17.21",
@@ -88,11 +88,11 @@
     "@types/ws": "^8.5.13",
     "@vitejs/plugin-react": "^4.3.2",
     "drizzle-kit": "^0.27.1",
-    "esbuild": "^0.24.0",
+    "esbuild": "^0.27.2",
     "tailwindcss": "^4.1.18",
-    "tsx": "^4.19.1",
-    "typescript": "5.6.3",
-    "vite": "^5.4.9"
+    "tsx": "^4.21.0",
+    "typescript": "5.9.3",
+    "vite": "^5.4.21"
   },
   "optionalDependencies": {
     "bufferutil": "^4.0.8"
