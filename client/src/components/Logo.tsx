@@ -8,12 +8,12 @@ export function Logo({ className, animate = false }: LogoProps) {
     <>
       <img
         className={`${className} block dark:hidden`}
-        src="/icon.png"
+        src="/icon.gif"
         alt="icon"
       />
       <img
         className={`${className} hidden dark:block`}
-        src="/icon-dark.png"
+        src="/icon-dark.gif"
         alt="icon"
       />
     </>
